@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans-bold-webfont.woff2') format('woff2'),
+         url('opensans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'roboto', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'GothaProBol', sans-serif;
+    font-family: 'GothaProLig', sans-serif;
+    font-family: 'GothaProLiglta', sans-serif;
+    margin: 0;
+    line-height: 1.42;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+    
+}
+
+.header__container {
+    height: 500px;
+    position: relative;
+    background: url(maket/Banner.png) no-repeat;
+    background-size: 100%;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.header__back {
+    
+    margin: 0 auto:
+    
+
+}
+
+.header{
+    color: #fff;
+}
+
+.contacts__phone {
+    color: inherit;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.contacts__description {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(177, 33, 103)
+}
+
+.contacts {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-style: normal;
+    text-align: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.pagination__display {
+    display: inline-block;
+    font-size: 15px;
+    font-style: light;
+    color: rgba(111, 110, 110)
+    
+}
+
+.sidebar {
+    width: 108px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu__link {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+
+}
+
+.menu__link:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    background: center center no-repeat;
+    
+}
+
+.menu__link:hover {
+    color: #000;
+}
+
+.menu__link--main:before {
+    background-image: url('./maket/main_icon.png')  
+}
+
+.menu__link--main:hover:before {
+    background-image: url('./maket/main_icon-hover.png') 
+}
+
+.menu__link--feed:before {
+    background-image: url('./maket/feed_icon.png')   
+}
+
+.menu__link--feed:hover:before {
+   
+    background-image: url('./maket/feed_icon-hover.png') 
+    
+}
+
+.menu__link--wallet::before {
+    background-image: url('./maket/wallet_icon.png')   
+}
+ 
+
+.menu__link--wallet:hover:before {
+    
+    background-image: url('./maket/wallet_icon-hover.png') 
+    
+}
+
+.menu__item--active .menu__link--feed {
+color: pink;
+}
+
+.menu__item--active .menu__link--feed:before {
+    background-image: url('./maket/feed_icon-hover.png')    
+}
+
