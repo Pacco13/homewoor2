@@ -182,3 +182,8 @@ color: pink;
     background-image: url('./maket/feed_icon-hover.png')    
 }
 
+.features__content {
+    display: inline-block;  
+    vertical-align: top;
+}
+
